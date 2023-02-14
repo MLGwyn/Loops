@@ -2,11 +2,18 @@
 
 namespace Loops
 {
-  class Program
-  {
-    static void Main(string[] args)
+    class Program
     {
-      Console.WriteLine("Welcome to C#");
+        static void Main(string[] args)
+        {
+            var counter = 0;
+
+            while (counter < 10)
+            {
+                Console.WriteLine("Doing Something");
+
+                counter++;
+            }
+        }
     }
-  }
 }
